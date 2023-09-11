@@ -1,0 +1,175 @@
+.main-wrapper {
+	height: calc(100vh - 50px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-billing {
+	width: 50%;
+	padding: 15px 15px 12px;
+	box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, .2);
+	border-radius: 8px;
+}
+
+.card-billing__head {
+	display: flex;
+	align-items: center;
+}
+
+.more-details {
+	margin-left: 20px;
+	font-weight: 500;
+	color: #7A89A0;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.fa-external-link {
+	margin-right: 5px;
+}
+
+.btn-dropdown {
+	border: 1px solid #e8eaee !important;
+}
+
+.btn-dropdown:focus {
+	outline: 0;
+	box-shadow: none !important;
+}
+
+.card-billing__body {
+	padding-top: 25px;
+}
+
+.card-billing__body--item {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.month {
+	width: 15%;
+	border-radius: 16px 0px 0px 16px;
+	color: #ffffff;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+
+.track {
+	width: 85%;
+	height: 28px;
+	overflow: hidden;
+	background: #e5e5e57d;
+	border-radius: 0px 16px 16px 0px;
+}
+
+.track-bar {
+	position: relative;
+	float: left;
+	min-width: 1%;
+	height: 100%;
+	z-index: 2
+}
+
+.percent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.bg__month1 {
+	background-color: #5499C7;
+}
+
+.bg__month2 {
+	background-color: #16A085;
+}
+
+.bg__month3 {
+	background-color: #F5B041;
+}
+
+.bg__month4 {
+	background-color: #A569BD;
+}
+
+.bg__month5 {
+	background-color: #CD6155;
+}
+
+.bg__month6 {
+	background-color: #2C3E50;
+}
+
+.bg__bar1 {
+	background-color: #5DADE2;
+}
+
+.bg__bar2 {
+	background-color: #58D68D;
+}
+
+.bg__bar3 {
+	background-color: #F4D03F;
+}
+
+.bg__bar4 {
+	background-color: #AF7AC5;
+}
+
+.bg__bar5 {
+	background-color: #EC7063;
+}
+
+.bg__bar6 {
+	background-color: #5D6D7E;
+}
+
+.w-35-p {
+	width: 35%;
+}
+
+.w-55-p {
+	width: 55%;
+}
+
+.w-85-p {
+	width: 85%;
+}
+
+.w-65-p {
+	width: 65%;
+}
+
+.w-75-p {
+	width: 75%;
+}
+
+.w-45-p {
+	width: 45%;
+}
+
+.card-billing__foot {
+	display: flex;
+	align-items: center;
+	padding-left: 15%;
+	text-align: right;
+}
+
+.card-billing__foot--item {
+	position: relative;
+}
+.line {
+	position: absolute;
+	bottom: 100%;
+	right: 17%;
+	border: 1px solid #e8eaee;
+	height: 270px;
+}
